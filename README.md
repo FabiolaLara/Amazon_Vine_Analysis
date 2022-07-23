@@ -9,9 +9,9 @@ In the case of PySpark que had to make a conncetion to AWS to extract our data b
 While using each tool to manage the data base, this challenge asked to retrieve some data frames, or tables in order to know some information where we can see statisticall information, for example, we can determine the number of five stars give by the clients when they made a purchase and the number of five stars given when they did´t buy the product finally, so we can have a best landscape in the behaviour of our clients versus the products, I mean, we can realized or make some hypotesis how clients are accepting the product.
 
 
-## 2.  Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+## 2.  Results
 
-+ 'How many Vine reviews and non-Vine reviews were there?'
+**+ 'How many Vine reviews and non-Vine reviews were there?'**
 
 To get these values, the challege asked to make two filters before, the first one was:  to get the votes where total_votes column is equal to or greater than 20, this was made in this way in order to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on. The second filter was: once made the previous request, we had to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%, this way was made in order to focus in those products where their votes represent those who have more impact for our analysis.
 
@@ -21,14 +21,14 @@ Having these two filters first, we were filterin in a table where the total of r
 ![VineProgram](/ResourcesPandas/vine_program_N.png)
 
 
-+ How many Vine reviews were 5 stars? and how many non-Vine reviews were 5 stars?
+**+ How many Vine reviews were 5 stars? and how many non-Vine reviews were 5 stars?**
 
 The total of reviews with 5 stars requested by the challenge were taken fron the original vine_table_df, retrieving a total amount of: 2,961,223. From these same table, in order to get the number of raws where reviews had 5 stars and the column verified purchase = 'Y', we got a number of: 2,637,198 raws, in the same way but just changing the verified_purchase = 'N', we got 324,025 reviews. 
 
 ![vine_reviews_5_stars](/ResourcesPandas/vine_reviews_5_stars.png)
 
 
-+ What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+**+ What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
 
 The percentage of the total revies, where the star_rating colum = 5, is: 61.05%, meaning that roughly more than 50% of the reviews have 5 stars values.
 
