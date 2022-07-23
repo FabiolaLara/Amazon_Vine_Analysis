@@ -1,5 +1,5 @@
 # Amazon_Vine_Analysis
-Bid Data, using colab, pandas, RDS, AWS
+### Bid Data, using colab, pandas, pgAdmin, RDS and AWS.
 
 ## 1.  Overview of the analysis: Explain the purpose of this analysis.
   
