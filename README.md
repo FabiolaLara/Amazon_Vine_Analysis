@@ -46,11 +46,12 @@ On the other hand when we use the origianl vine_table_df, the results change con
 With the mention before  we could say that the Vine program shows a kind of bias when the data set was reduced by making the two filters explained previously, however these filters are reasonably important. On the other hand when we filter data jut takig in count values where rating_stars are 5 stars, we can deduct that the percentages are very clear for our analysis, however we could have a greater bias due we have a higth percentage of products with 5 stars and where the purchase was made, but we dont know what kind of products represent the ones with a highest demand, so we should take in count some other filters if we want appreciate the kind of products that represent the most important in our data set, due this products are sold constantly and have the rate of 5 stars.
 
 The next images show both analysis and where values were taken to provide the previous summary.
-The first two images represent the data analysis when applying the two filters and the third image shows the results when taking the data set complete, but just filtering values with 5 stars rating and verified purchase was 'Y' firstable and then when it was 'N'.
+The first two images represent the data analysis when applying the two filters.
 
 ![reviews_two_filters](/ResourcesPandas/reviews_two_filters_1.png)
 ![reviews_two_filters](/ResourcesPandas/reviews_two_filters_2.png)
 
+The third image shows the results when taking the data set complete, but just filtering values with 5 stars rating and verified purchase was 'Y' firstable and then when it was 'N'.
 
 ![reviews_complete_dataset](/ResourcesPandas/reviews_complete_dataset.png)
 
