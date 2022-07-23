@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 Bid Data, using colab, pandas, RDS, AWS
 
-1.  Overview of the analysis: Explain the purpose of this analysis.
+## 1.  Overview of the analysis: Explain the purpose of this analysis.
   
   The purpose for the deliverable 2 is to retrieve information througth the use of PySpark, or Pandas or PgAdmin. 
 In the case of PySpark que had to make a conncetion to AWS to extract our data base, so all the work made was online. Secondly, while using Pandas in jupyter notebook we import the data base from AWS to our computer so the data base can be loaded in jupyter. And thirth using PgAdmin a daba base can be created but it wasn´t related to aws, I mean, we create the data base locally so we have to create the tables using some queries and then populate the data base importing our local data base.
@@ -9,9 +9,9 @@ In the case of PySpark que had to make a conncetion to AWS to extract our data b
 While using each tool to manage the data base, this challenge asked to retrieve some data frames, or tables in order to know some information where we can see statisticall information, for example, we can determine the number of five stars give by the clients when they made a purchase and the number of five stars given when they did´t buy the product finally, so we can have a best landscape in the behaviour of our clients versus the products, I mean, we can realized or make some hypotesis how clients are accepting the product.
 
 
-2.  Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+## 2.  Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 
-+ How many Vine reviews and non-Vine reviews were there?
++ 'How many Vine reviews and non-Vine reviews were there?'
 
 To get these values, the challege asked to make two filters before, the first one was:  to get the votes where total_votes column is equal to or greater than 20, this was made in this way in order to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on. The second filter was: once made the previous request, we had to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%, this way was made in order to focus in those products where their votes represent those who have more impact for our analysis.
 
@@ -37,7 +37,7 @@ To determine the percentage of these reviews where they had been evaluated with 
 ![vine_reviews_percentage](/ResourcesPandas/vine_reviews_percentages.png)
 
 
-3.  Summary
+## 3.  Summary
 
 Lets point out that the analysis where we applied two filters first, we had that where the vine program = 'Y', the percentage that it represents is less than 1 %, meaning that the members of this program are few. In comparission where members are not part of the vine program, they form part of more than 99 percent, so it is difficult to deduct with just these number of values if there is a bias with these Vine Program. 
 
