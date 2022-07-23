@@ -4,7 +4,7 @@ Bid Data, using colab, pandas, RDS, AWS
 1.  Overview of the analysis: Explain the purpose of this analysis.
   
   The purpose for the deliverable 2 is to retrieve information througth the use of PySpark, or Pandas or PgAdmin. 
-In the case of PySpark que had to make a conncetion to AWS to extract our data base, so all the work made was online. Secondly, while using Pandas in jupyter notebook we import the data base from AWS to our computer so the data base can be loaded in jupyter. And thirdth using PgAdmin a daba base can be created but it wasn´t related to aws, I mean, we create the data base locally so we have to create the tables using some queries and then populate the data base importing our local data base.
+In the case of PySpark que had to make a conncetion to AWS to extract our data base, so all the work made was online. Secondly, while using Pandas in jupyter notebook we import the data base from AWS to our computer so the data base can be loaded in jupyter. And thirth using PgAdmin a daba base can be created but it wasn´t related to aws, I mean, we create the data base locally so we have to create the tables using some queries and then populate the data base importing our local data base.
   
 While using each tool to manage the data base, this challenge asked to retrieve some data frames, or tables in order to know some information where we can see statisticall information, for example, we can determine the number of five stars give by the clients when they made a purchase and the number of five stars given when they did´t buy the product finally, so we can have a best landscape in the behaviour of our clients versus the products, I mean, we can realized or make some hypotesis how clients are accepting the product.
 
