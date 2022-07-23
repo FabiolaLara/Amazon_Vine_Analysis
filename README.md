@@ -6,7 +6,9 @@ Bid Data, using colab, pandas, RDS, AWS
   The purpose for the deliverable 2 is to retrieve information througth the use of PySpark, Pandas y PgAdmin. 
 In the case of PySpark que had to make a conncetion to AWS to extract our data base, so all the work made was online. Secondly, while using Pandas in jupyter notebook we import the data base from AWS to our computer so the data base can be loaded in jupyter. And thirdth using PgAdmin a daba base was created but it wasn´t related to aws, I mean, we create the data base locally so we have to create the tables using some queries and then populate the data base importing our local data base.
   
-While using each tool to manage the data base, this challenge asked to retrieve some data frames, or tables in order to know some information like:   
+While using each tool to manage the data base, this challenge asked to retrieve some data frames, or tables in order to know some information where we can see statisticall information, for example, we can determine the number of five stars give by the clients when they made a purchase and the number of five stars given when they did´t buy the product finally, so we can have a best landscape in the behavour of our clients versus the products.
+
+
  
 
 2.  Results: Using bulleted lists and images of DataFrames as support, address the following questions:
