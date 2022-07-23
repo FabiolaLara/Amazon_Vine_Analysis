@@ -11,7 +11,7 @@ While using each tool to manage the data base, this challenge asked to retrieve 
 
 ## 2.  Results
 
-**+ 'How many Vine reviews and non-Vine reviews were there?'**
+**+ How many Vine reviews and non-Vine reviews were there?**
 
 To get these values, the challege asked to make two filters before, the first one was:  to get the votes where total_votes column is equal to or greater than 20, this was made in this way in order to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on. The second filter was: once made the previous request, we had to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%, this way was made in order to focus in those products where their votes represent those who have more impact for our analysis.
 
