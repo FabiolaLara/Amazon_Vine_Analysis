@@ -17,13 +17,25 @@ To get these values, the challege asked to make two filters before, the first on
 
 Having these two filters first, we were filterin in a table where the total of rows was reduced considerably, so we just have 61,948 rows. When we make the filter to get the vine reviews where vine column is 'Y' (yes), we get: 334 raws. On the other hand when filtering to get the values wher vine = 'N', we get te total amount of raws equal to 61,614. 
 
-The analysis for the vine_table_df retrieved a total of 4,850,360 reviews, to get this value, we count the values for the review_id column.
 
 + How many Vine reviews were 5 stars? and how many non-Vine reviews were 5 stars?
 
-The total of reviews with 5 stars were those where vine column was equal to 'Y' (yes), and there were also 5 stars for the star_rating column, getting the amount of: 2,637,198. In comparision with these raws where total of reviews had 5 stars reviews but 
+The total of reviews with 5 stars requested by the challenge were taken fron the original vine_table_df, retrieving a total amount of: 2,961,223. From these same table, in order to get the number of raws where reviews had 5 stars and the column verified purchase = 'Y', we got a number of: 2,637,198 raws, in the same way but just changing the verified_purchase = 'N', we got 324,025 reviews. 
 
 
 + What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
+The percentage of the total revies, where the star_rating colum = 5, is: 61.05%, meaning that roughly more than 50% of the reviews have 5 stars values.
+
+To determine the percentage of these reviews where they had been evaluated with 5 star and the verified_purchase = 'Y', is: 89.06%. while for those reviews where the verified_purchase values = 'N' we got a 10.94%. 
+
 3.  Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
+Lets point out that the analysis where we applied two filters first, we had that where the vine program = 'Y', the percentage that it represents is less than 1 %, meaning that the members of this program are few. In comparission where members are not part of the vine program, they form part of more than 99 percent, so it is difficult to deduct with just these number of values if there is a bias with these Vine Program. 
+
+On the other hand when we use the origianl vine_table_df, the results change considerably. Firstable we have that, taking all the data where the star_rating = 5, the data represents a little bit more than 60 % approximately of our entire data set, then, to get the numbers of raws where a 5 star was given and the verified_purchase is equal to 'Y', the percentae obtained was 89.06% meanwhile for those values where the verified_purchase was equal 'N' we got a 10.94% of the values. 
+
+With the mention before  we could say that the Vine program shows a kind of bias when the data set was reduced by making the two filters explained previously, however these filters are reasonably important. On the other hand when we filter data jut takig in count values where rating_stars are 5 stars, we can deduct that the percentages are very clear for our analysis, however we could have a greater bias due we have a higth percentage of products with 5 stars and where the purchase was made, but we dont know what kind of products represent the ones with a highest demand, so we should take in count some other filters if we want appreciate the kind of products that represent the most important in our data set, due this products are sold constantly and have the rate of 5 stars.
+
+
+
